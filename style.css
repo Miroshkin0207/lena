@@ -37,6 +37,8 @@ button {
     }
 
     #photo {
-
+        width: 200px;
+        height: 200px;
+        top: 50%
     }
 }
