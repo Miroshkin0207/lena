@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (max-width: 999px) {
+    
+}
