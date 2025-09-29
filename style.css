@@ -13,8 +13,7 @@ button {
 
 #photo {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%)
+    left: 50%
 }
 
 @media (min-width: 1000px) {
@@ -26,7 +25,8 @@ button {
     #photo {
         width: 300px;
         height: 300px;
-        top: 100px
+        top: 100px;
+        transform: translateX(-50%)
     }
 }
 
@@ -40,6 +40,6 @@ button {
         width: 200px;
         height: 200px;
         top: 50%;
-        transform: translateY(-50%)
+        transform: translate(-50%, -50%)
     }
 }
