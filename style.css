@@ -33,12 +33,13 @@ button {
 @media (max-width: 999px) {
     button {
         font-size: 30px;
-        top: 550px
+        top: 450px
     }
 
     #photo {
         width: 200px;
         height: 200px;
-        top: 50%
+        top: 50%;
+        transform: translateY(-50%)
     }
 }
