@@ -6,7 +6,8 @@ function change() {
         button.innerHTML = "Вернуть"
     }
     else {
-        photo.src="left.png"
+        //photo.src="left.png"
         button.innerHTML = "Изменить"
     }
+
 }
